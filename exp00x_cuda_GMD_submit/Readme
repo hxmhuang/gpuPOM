@@ -1,0 +1,6 @@
+run_exp002.sh is for the dam-break test case described in the paper.
+As shown in run_exp002.sh, the simulation days is 42 now. 
+It can be adjusted according to your need.
+The domain size and mpi processes number can also be adjusted, but they should satisfy:
+(im_global-2)/(im_local-2) * (jm_global-2)/(jm_local-2) = n_proc
+
